@@ -1,5 +1,5 @@
 # React - Todo #
-For rebuild Todo App use React and Redux.
+For rebuild Todo App use [React](https://facebook.github.io/react/) and [Redux](https://github.com/rackt/redux).
 
 ## File Intro ##
 
@@ -49,7 +49,7 @@ For rebuild Todo App use React and Redux.
 
  ![show_demo](img/demo7.png)
 
-You can see the online demo [here]()  or clone this repository and open the `app/index.html` to show! Enjoy it.
+You can see the online demo [here](http://hisimmer.com/React-Todo/) or clone this repository and open the `app/index.html` to show! Enjoy it.
 
 ## Future ##
 
