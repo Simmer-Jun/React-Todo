@@ -1,0 +1,1 @@
+define(["exports","module"],function(s,t){"use strict";var i={subscribe:function(s,t){if("function"!=typeof t)return!1;this._calls||(this._calls={});return this._calls[s]=t,console.log(this),this},publish:function(){var s=Array.prototype.slice.call(arguments),t=s.shift();this._calls[t].apply(this,s)}};t.exports=i});
