@@ -39,6 +39,9 @@ For rebuild Todo App use [React](https://facebook.github.io/react/) and [Redux](
 
 ## Demo ##
 
+ * online demo [here](http://hisimmer.com/React-Todo/) 
+ * You can see the online demo [here](http://hisimmer.com/React-Todo/) or clone this repository and open the `app/index.html` to show! Enjoy it.
+
  ![show_demo](img/demo1.png)
 
  ![show_demo](img/demo3.png)
@@ -49,11 +52,9 @@ For rebuild Todo App use [React](https://facebook.github.io/react/) and [Redux](
 
  ![show_demo](img/demo7.png)
 
-You can see the online demo [here](http://hisimmer.com/React-Todo/) or clone this repository and open the `app/index.html` to show! Enjoy it.
-
 ## Future ##
 
-For now it does'n support mobile, but it will support soon...
+For now it does'n support mobile, but it will support soon...(so makesure you screen big than 980px...)
 
 If you hava any question just open issue .
 
