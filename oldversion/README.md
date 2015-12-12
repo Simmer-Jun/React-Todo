@@ -42,15 +42,15 @@ For rebuild Todo App use [React](https://facebook.github.io/react/) and [Redux](
  * Online demo [here](http://hisimmer.com/React-Todo/) 
  * You can see the online demo [here](http://hisimmer.com/React-Todo/) or clone this repository and open the `app/index.html` to show! Enjoy it.
 
- ![show_demo](img/demo1.png)
+ ![show_demo](./img/demo1.png)
 
- ![show_demo](img/demo3.png)
+ ![show_demo](./img/demo3.png)
 
- ![show_demo](img/demo5.png)
+ ![show_demo](./img/demo5.png)
 
- ![show_demo](img/demo6.png)
+ ![show_demo](./img/demo6.png)
 
- ![show_demo](img/demo7.png)
+ ![show_demo](./img/demo7.png)
 
 ## Future
 
