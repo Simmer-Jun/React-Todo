@@ -1,12 +1,12 @@
-import React, { Component, PropTypes } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
-import { addClass, deleteClass, ADD_CLASS, addTask, modifyTask, deleteTask, activeClassId, activeTaskId, setView, activeView} from 'action';
-import Topbar from 'topbar';
-import Classlist from 'class';
-import Tasklist from 'task';
-import Content from 'content';
-import Alert from 'alert';
-import Pubsub from 'pubsub'; // 订阅发布模式
+import { addClass, deleteClass, ADD_CLASS, addTask, modifyTask, deleteTask, activeClassId, activeTaskId, setView, activeView} from '../action/action';
+import Topbar from './top-bar';
+import Classlist from './class';
+import Tasklist from './task';
+import Content from './content';
+import Alert from './alert';
+import Pubsub from '../pubsub/pubsub'; // 订阅发布模式
 
 
 console.log(Pubsub);
@@ -89,6 +89,7 @@ var Todoapp = React.createClass({
         );
     },
     componentDidMount: function() {
+
         var that = this; 
         if(document.documentElement.offsetWidth < 460 ) {
             this.props.dispatch(activeView(true));
@@ -112,7 +113,6 @@ function taskListenHansler(state,id) { // 返回选中的分类id下的所有任
         classArry.map(function(item, index){
             arr = arr.concat(item.taskList);
         });
-        console.log(arr);
         return arr;
     }
     classArry.map(function(item,index) {
@@ -143,6 +143,7 @@ function contentHandler(taskArr,id) {
 function selects(state) {
     var states = JSON.stringify(state);
     window.localStorage.setItem("app",states);
+        console.log(state);
     return {
         classList: state.classList, // 这里更新分类列表
         taskList: taskListenHansler(state, state.activeItem.activeClassId),// 这里更新任务列表，

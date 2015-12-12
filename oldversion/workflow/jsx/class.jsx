@@ -2,6 +2,8 @@ import  React , { Component, PropTypes } from 'react';
 import  ReactDom   from 'react-dom';
 import Pubsub from 'pubsub';
 
+var CSSTransitionGroup = React.addons.CSSTransitionGroup;
+
 
 
 var List = React.createClass({ // 分类列表

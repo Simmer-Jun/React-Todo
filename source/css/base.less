@@ -1,0 +1,44 @@
+/************
+* icon font *
+*************/
+@font-face {
+    font-family:icon;
+    src:url(../fonts/icomoon.eot) format("embedded-opentype"),
+    url(../fonts/icomoon.woff) format("woff"),
+    url(../fonts/icomoon.svg) format("svg"),
+    url(../fonts/icomoon.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+.icon {
+    font-family: 'icon';
+    font-weight: normal;
+    font-size: inherit;
+}
+
+body {
+    font: 62.5%/1.5  "Microsoft Yahei";
+}
+
+a {
+    color: #DD4B39;
+    text-decoration: none;
+    &:hover {
+        color: #4C9DA0;
+        text-decoration: underline;
+    }
+}
+/************
+* css tool *
+*************/
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: none;
+}
+.clearfix {
+    *zoom: 1;
+}
